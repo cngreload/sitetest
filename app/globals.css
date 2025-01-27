@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Add this to your global CSS or a module */
+@media (max-width: 768px) {
+  .animation-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50%; /* Smaller size for mobile */
+    height: 50%;
+  }
+}
+
+@media (min-width: 840px) {
+    .smm {
+      min-width: 840px;
+    }
+ }
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+}

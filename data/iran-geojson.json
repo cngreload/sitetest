@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehran",
+        "capital": "Tehran",
+        "capital_coordinates": [51.389, 35.6892]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [51.01, 35.67],
+            [51.02, 35.68],
+            [51.03, 35.66],
+            [51.01, 35.67]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Isfahan",
+        "capital": "Isfahan",
+        "capital_coordinates": [51.666, 32.6539]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [51.61, 32.60],
+            [51.70, 32.60],
+            [51.70, 32.70],
+            [51.61, 32.70],
+            [51.61, 32.60]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fars",
+        "capital": "Shiraz",
+        "capital_coordinates": [52.5837, 29.5918]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [52.50, 29.50],
+            [52.70, 29.50],
+            [52.70, 29.70],
+            [52.50, 29.70],
+            [52.50, 29.50]
+          ]
+        ]
+      }
+    }
+  ]
+}
